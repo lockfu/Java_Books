@@ -1,3 +1,61 @@
+// baidu ------
 java 类加载过程
+java.util.concurrent包下的类 ***
+treemap了解
+hashmap原理 kv插入过程   hashmap能插入重复元素吗 key重复 value重复 *****
+Hashmap和HashTable的区别， HashMap能插入null，key为null？value为null？
+如何在多线程环境下使用Map，ConcurrentHashMap原理，ConcurrentHashMap如何加锁
+Set的实现，各自的特性
+GC root垃圾回收  引用计数的缺陷  *****
+用过哪些collection
+对象相等的判断 equals方法实现
+ReetrantLock和synchronized的区别
+对valitile的理解
 
-java.util.concurrent包下的类
+
+// baidu end 
+
+
+// JD 
+垃圾收回，集合框架，对spring和springboot的理解
+Long a=100  Long b= 100， a==b是true or false, 如果是300呢
+object类有哪些方法
+hashmap系列
+jvm 内存布局
+一个String类型字符串s在jvm中如何存储
+如果把s重新赋值， 这时候字符串在jvm中怎么存
+多线程怎么并发运行
+synchronized能保证按序获得锁吗  那有什么方法能按序获得锁
+假如有三个线程，我想让他们按序循环不停的执行，怎么做
+手写单例模式 *****
+java的静态成员变量和静态常量存在哪
+垃圾回收算法 *****
+java与c++的区别
+hashMap源码与currenthashmap源码，1.7与1.8 的区别
+hashmap在并发情况下，会出现什么问题
+给了一个场景题，说怎么实现每隔一秒在控制台输出一句话
+java多线程怎么实现的
+java虚拟机的内存模式
+怎么打破双亲委派模式
+java虚拟机怎么识别是符合标准的class文件，魔数？，我也不知道
+
+
+
+//JD end
+
+
+
+// ali
+分代回收算法
+对象如何进入老年代
+新生代用的什么算法  老年代用的什么算法
+lock synchronized volatile的区别
+乐观锁， 悲观锁
+乐观锁使用场景，使用乐观锁的产品或中间件
+线程池参数
+缓存线程池的参数如何设置，特性是什么
+一个核心池为2，等待队列3，最大线程数10的线程池，已有两个线程运行任务，第三个任务进来时如何处理
+
+
+
+// ali end
