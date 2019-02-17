@@ -1,0 +1,118 @@
+计算机网络分为哪几层？
+TCP和UDP有什么区别？什么场景使用TCP，什么场景什么UDP？哪些应用层协议使用了TCP，哪些使用了UDP？
+什么是窗口滑动协议，什么是快速重传，什么是拥塞避免，什么是慢启动？
+TCP连接需要几次握手？几次分手？
+当你输入域名访问一个网站的时候，背后的过程是什么？
+     这个问题是比较开放的，你可以回答的内容有很多，但是你如果回答得越详细肯定是越好的。第一步就是域名解析，域名解析的话你可以说一下域名缓存在哪些地方，
+     然后如果你域名在本地没有缓存的话，是如何通过DNS来进行域名解析的，如果你的DNS服务器上没有保存那个域名，那你的DNS服务器将如何处理来得到这个域名的ip。
+     第二步就是说一下TCP连接的三次握手的过程。其他拓展内容有很多可以说，看你知识储备。例如你可以说通过CDN来进行访问加速。
+     也可以说目前网站基本上都是前后端分离的，访问的时候会先访问反向代理服务器进行负载均衡之类的
+ 从用户在浏览器输入域名，到浏览器显示出页面的过程
+ 
+ 什么是https协议？https协议用到了哪种密钥？
+ 什么是socket？
+ 什么是IO，什么是NIO，什么是AIO，什么是netty框架？
+ 
+ // 
+ 数据库的事务有哪些特性？
+ 数据库中的隔离等级有哪些？
+ 数据库的索引有什么作用？用什么来实现的？
+ B树和B+树有什么区别？为什么索引不用B树
+ 什么是乐观锁，什么是悲观锁？*****
+ 数据库的四种隔离级别，怎么避免脏读
+ 怎么查看是哪一条SQL执行慢（这个之前在面拼多多的时候也被问到过，但楼主没去看，被自己不善于总结坑了），slow_query_log，long_query_time，slow_query_log_file，
+ sql有几种join，map join了解过没
+ 
+ 
+ 
+ // 
+ 进程和线程的区别是什么？
+ 进程间通信的方式有什么？线程间通信的方式有什么？
+ 什么是缓存？有哪些缓存的更新算法？
+ 对shell命令熟悉吗，如何查看内存和cpu使用情况
+ 进程间有哪些通信方式，如果有两个进程，一个进程执行一半要求另一个进程终止，该如何操作
+ 
+ 
+ //
+ 了解树的先序遍历，中序遍历，后序遍历。图的广度优先搜索算法，深度优先搜索算法
+ 如果你是准备笔试算法题的话，我建议你先刷剑指offer，然后再去刷leetCode
+ 算法题中的重点应该是动态规划，主要是因为动态规划如果你能够找得到状态转移方程的话，那么代码行数会比较少的，所以动态规划适合被当作笔试题，这个要重点准备。
+ 矩阵乘法。
+ 有一个数组，
+  （1）其中有一个数出现次数超过半数，找到这个数？
+  （2）其中有两个数出现次数都超过了30%，找到这两个数？
+  
+ 写一个栈的实现，用数组，确保最大队列长度为k
+经典DP 最长公共子串
+手写归并排序；
+用队列实现栈的功能
+ 如何判断一个树是否符合查找树的规则
+ 链表反转
+ 字符串中第一个只出现一次的字符
+ 最大和子数组
+ 二叉树前序遍历的非递归
+ 二维数组中的查找
+ 
+ 
+ 
+ //
+ java虚拟机的内存如何划分的？
+ java的垃圾回收算法有哪些？垃圾回收器有哪些？不同的垃圾回收器有什么区别？
+ voliatile和synchonized有什么区别？synchonized和jdk提供的Lock包又有什么区别？
+ HashMap的原理是什么
+ 常用的设计模式有哪些？
+ Spring的AOP、IOC作用是什么？如何实现的。
+ 介绍一下array、set、map的继承关系，画图
+ 说一下ArrayList和linklist的底层实现原理，和数据结构
+ Hashmap和hashtable的区别
+ 线程的实现方式有什么，写出来
+ 讲一下synchronize和volatile锁的问题
+ 说一下java的内存模型
+ 了解GC吗，讲一下原理
+ jdk1.8的特性。
+ hashmap和currenthashmap的数据结构，volatile了解吗，写个volatile的应用场景（我就说了单列的双重检验）
+ 问了一些juc并发库有哪些类（futrue，futruetask，excutors，executorthreadpool，countdownlatch，cyclicbarrier，symphone等）
+ 怎么确保当所有线程执行到某个点等待，直到所有线程都执行到时一起往下执行（cyclicbarrier）
+ cyclicbarrier和countdownlatch有什么区别，以及应用场景
+ equal hashcode区别
+ HashMap与HashSet的区别；ThreadLocal原理；垃圾收集算法；
+ 了解hashMap 和hashTable吗介绍下，他们有什么区别
+ .java里set，Array和map等容器了解吗，它们的继承关系写一下
+ 线程安全有了解么，介绍下
+ hashmap和 hashtable区别 hashmap的底层和hashmap怎么解决hash冲突
+ String、StringBuffer、StringBuilder的区别，怎么理解String不变性
+ ==和equals的区别，如果重写了equals()不重写hashCode()会发生什么
+ volatile怎么保证可见性，synchronized和lock的区别，synchronized的底层实现
+ sleep和wait的区别，sleep会不会释放锁，notify和notifyAll的区别
+ 了不了解线程的局部变量，讲讲线程池参数
+ 什么情况会发生死锁，死锁的处理方法
+ Cookie和Session的区别，怎么防止Cookie欺骗
+ 
+ // 
+ HDFS的写入过程
+ 你理解的spark、运行模式
+ Hbase存储原理和过程
+ 节点通信问题
+ Zookeeper的同步过程
+ Hive的特点都有什么
+ HBase的优势，为什么使用了HBase、设计rowkey？
+ spark中的shuffle有哪些？
+ mysql、spark中的join原理。
+ spark中几种partitioner、水塘抽样？
+ hadoop shuffle 象征性的问了下
+ hdfs create一个文件的流程；
+ hdfs写入流程；
+ mapreduce 第一代架构及其通信
+ Yarn架构及其流程；
+ MapReduce的过程，map，shuffle，reduce这些
+ HDFS写数据过程介绍
+ spark工作机制，哪些角色，作用
+ spark yarn模式下的cluster模式和client模式有什么区别
+ 介绍Spark，client提交application后，接下来的流程，driver，yarn怎么通讯，开始执行，balabala
+ 实验环境，你搭建hadoop集群的规模，进行过哪些操作
+ spark的架构，数据倾斜，rdd的宽依赖和窄依赖
+ map阶段运行特别慢怎么办
+ 
+ 
+ 
+ 
