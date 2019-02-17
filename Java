@@ -46,15 +46,61 @@ java虚拟机怎么识别是符合标准的class文件，魔数？，我也不�
 
 
 // ali
+Java内存模型和GC算法 *****
 分代回收算法
 对象如何进入老年代
 新生代用的什么算法  老年代用的什么算法
-lock synchronized volatile的区别
+lock synchronized volatile的区别 *****
 乐观锁， 悲观锁
 乐观锁使用场景，使用乐观锁的产品或中间件
 线程池参数
 缓存线程池的参数如何设置，特性是什么
 一个核心池为2，等待队列3，最大线程数10的线程池，已有两个线程运行任务，第三个任务进来时如何处理
+jvm垃圾回收
+juc包里看过那些类的源码
+hashmap为何是线程不安全的？线程不安全有哪些表现？
+java的并发方式
+线程安全的理解
+Java源码中的HashMap、HashTable、ArrayList及LinkedList
+解决Hash冲突的方法及Java8对链地址法有何优化
+加载器双亲委派模型及破坏  ***
+线程中断有什么用，若某个线程的run()方法正常运行，执行累加运算，调用Thread.interrupt()，会发生什么？
+线程和进程的区别。
+解释synchronized和valatile关键字，有什么区别，如何理解valatile保证内存有序性 *****
+HashMap是否线程安全？ConcurrentHashMap实现原理，jdk 1.7和jdk 1.8有什么区别？ **
+可以自己实现一个与java.lang.String完全相同的类吗？（答了自己的理解，扯到类加载和类相同的问题上），双亲委派类加载模型，可以加载自定义的String类吗？如何实现？
+分布式锁，使用场景，知道哪些实现方式
+hashmap实现原理，把知道的都说出来 ****
+spring的aop的实现方式，aspectj和jdk动态代理，cglib动态代理，讲了下实现的原理
+两个线程打印1.2.3.4打印到100怎么实现，这里刚开始说的是加锁用生产者消费者来做，后来说了semaphore，感觉后面的才是面试官想要的答案。
+jvm虚拟机老年代什么情况下会发生gc，给你一个场景，一台4核8G的服务器，每隔两个小时就要出现一次老年代gc，现在有日志，怎么分析是哪里出了问题
+Hashmap实现原理，hash冲突
+JVM 内存模型，堆和栈区别
+JVM只是看过书，有没有自己动手去实现
+Spring AOP具体怎么实现的
+java 中static理解，final理解
+hashmap为什么是数组＋链表，不是数组加数组 
+怎样减少hash碰撞，给出具体方案
+数组为什么是连续存储的 
+数组的初始长度为什么是15 
+hashmap里的链表初始长度为什么是16 
+线程是如何并发执行的，cpu在干嘛 
+字符串连接的几种方法区别
+String类为什么设计成final
+hashmap的数据结构是什么，具体是怎么实现的，是不是线程安全的（不是），那么它的线程安全的替代有哪些
+java有多继承吗？（没有）那如何实现类似于多继承的功能呢？
+讲一下JVM的分代回收以及具体算法
+将一下JVM的垃圾收集器，G1和CMS有啥区别？
+讲一下一个变量从产生到结束所经历的过程，讲一下字符串常量的过程？
+将一下线程安全问题产生的原因？
+讲一下乐观锁和悲观锁  ***
+乐观锁是怎么保证一致性的
+Integer和int有啥区别，integer中有哪些特殊的函数？
+说一下hashcode的作用？HashMap的底层实现？HashMap和HashTable的区别
+说一下concurrentHashMap和hashTable在性能上的区别？以及这种差异形成的原因
+Object类的方法，逐个解释一下（clone,hashCode,equals,wait,finalize,notify）
+spring ioc/aop ***
+
 
 
 
